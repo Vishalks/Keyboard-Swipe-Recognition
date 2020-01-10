@@ -2,7 +2,6 @@ from flask import Flask, request
 from flask import render_template
 import time
 import json
-import matplotlib.pyplot as plt
 import numpy as np
 import math
 
