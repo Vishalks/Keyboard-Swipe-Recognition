@@ -14,9 +14,9 @@ $(document).ready(function () {
     $('#cvsMain')[0].height = 137;
 
     SHARK2.context = $('#cvsMain')[0].getContext('2d');
-    SHARK2.context.strokeStyle = "#df4b26";
+    SHARK2.context.strokeStyle = "#5C4AFF";
     SHARK2.context.lineJoin = "round";
-    SHARK2.context.lineWidth = 5;
+    SHARK2.context.lineWidth = 4;
 
     $('#cvsMain').on('mousedown', SHARK2.canvasMouseDown);
     $('#cvsMain').on('mousemove', SHARK2.canvasMouseMove);
@@ -76,6 +76,7 @@ SHARK2.canvasMouseUp = function (e) {
     })
 
     console.log(SHARK2.coords)
+    $("#divInfo").html("Loading...");
 
     $.ajax({
 	  type: 'POST',
