@@ -1,1 +1,1 @@
-This repository contains my implementation of SHARK2 algorithm for keyboard gesture recognition. A live version of this can be found at [keyboard-gesture-recognition](https://gesture-recognition.herokuapp.com/)
+This repository contains my implementation of [SHARK2](http://pokristensson.com/pubs/KristenssonZhaiUIST2004.pdf) algorithm for keyboard gesture recognition. A live version of this can be found at [keyboard-gesture-recognition](https://gesture-recognition.herokuapp.com/)
